@@ -1,0 +1,9 @@
+/*
+ Theme Name:   Twenty seventeen Child Theme
+ description:  A child theme of the Twenty Fifteen default WordPress theme
+ Author:       the WordPress team
+ Template:     twentyseventeen
+ Version:      2.4
+*/
+
+@import url("../twentyseventeen/style.css");

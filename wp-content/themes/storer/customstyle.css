@@ -1,0 +1,9 @@
+.custom-logo{
+    height: auto;
+    width: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+.twp-logo{
+	display: inline;
+}

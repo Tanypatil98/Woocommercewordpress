@@ -1,0 +1,4 @@
+2020-11-23T11:18:00+00:00 CRITICAL Cannot redeclare register_and_build_fields() (previously declared in /opt/lampp/htdocs/wordpress/wp-content/plugins/new_plugin/new_plugin.php:121) in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 848
+
+2020-11-23T11:19:13+00:00 CRITICAL Cannot redeclare section_cb() (previously declared in /opt/lampp/htdocs/wordpress/wp-content/plugins/new_plugin/new_plugin.php:131) in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 859
+

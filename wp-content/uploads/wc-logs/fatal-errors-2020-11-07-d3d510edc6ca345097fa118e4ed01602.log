@@ -1,0 +1,6 @@
+2020-11-07T05:13:19+00:00 CRITICAL Cannot redeclare ajax_add() (previously declared in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:980) in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1051
+
+2020-11-07T05:14:16+00:00 CRITICAL Cannot redeclare ajax_add() (previously declared in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:980) in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1051
+
+2020-11-07T05:14:49+00:00 CRITICAL Cannot redeclare my_login() (previously declared in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1035) in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1103
+

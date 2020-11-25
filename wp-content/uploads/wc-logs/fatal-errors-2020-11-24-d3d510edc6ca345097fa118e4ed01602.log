@@ -1,0 +1,34 @@
+2020-11-24T05:27:44+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1288
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): my_add_field(Object(WC_Checkout))
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/checkout/form-shipping.php(69): do_action('woocommerce_aft...', Object(WC_Checkout))
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(301): wc_get_template('checkout/form-s...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): WC_Checkout->checkout_form_shipping('')
+#7 /opt/lampp/htdocs/wordpress/wp-includ in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1288
+
+2020-11-24T06:18:09+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on array in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1288
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): my_add_field(Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(265): apply_filters('woocommerce_che...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen-child/woocommerce/checkout/form-checkout.php(34): WC_Checkout->get_checkout_fields()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-sho in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1288
+
+2020-11-24T06:52:29+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1293
+
+2020-11-24T08:43:19+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_url() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1242
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): add_content_after_buynow('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1242
+

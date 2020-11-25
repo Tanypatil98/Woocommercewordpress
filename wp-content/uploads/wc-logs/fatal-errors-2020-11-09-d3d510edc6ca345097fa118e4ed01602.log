@@ -1,0 +1,10 @@
+2020-11-09T11:08:09+00:00 CRITICAL Uncaught Error: Call to undefined function recently_viewed_products() in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php:106
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php on line 106
+
+2020-11-09T11:08:29+00:00 CRITICAL syntax error, unexpected 'get_footer' (T_STRING) in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php on line 107
+

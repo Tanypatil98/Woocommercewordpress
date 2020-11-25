@@ -1,0 +1,66 @@
+2020-11-13T05:06:23+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_url() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1242
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): add_content_after_buynow('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1242
+
+2020-11-13T05:07:30+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_url() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1242
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): add_content_after_buynow('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1242
+
+2020-11-13T05:08:15+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_url() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1242
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): add_content_after_buynow('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1242
+
+2020-11-13T09:20:27+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_url() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1242
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): add_content_after_buynow('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1242
+
+2020-11-13T09:22:18+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_url() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1242
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): add_content_after_buynow('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1242
+
+2020-11-13T09:31:56+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_url() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php:1242
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): add_content_after_buynow('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/functions.php on line 1242
+

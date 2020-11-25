@@ -1,0 +1,85 @@
+2020-11-11T03:32:44+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-builder-elementor/includes/class-woocommerce-builder-elementor.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-builder-elementor/includes/class-woocommerce-builder-elementor.php(485): DTWCBE_WooCommerce_Builder_Elementor::elementor()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): DTWCBE_WooCommerce_Builder_Elementor->enqueue_scripts('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/script-loader.php(2001): do_action('wp_enqueue_scri...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-in in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-builder-elementor/includes/class-woocommerce-builder-elementor.php on line 55
+
+2020-11-11T09:02:05+00:00 CRITICAL Uncaught Error: Call to a member function get_parent() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:32
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 32
+
+2020-11-11T09:02:39+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:32
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 32
+
+2020-11-11T09:03:41+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:32
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 32
+
+2020-11-11T09:04:13+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ';' or ',' in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 34
+
+2020-11-11T09:10:50+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:32
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 32
+
+2020-11-11T09:11:09+00:00 CRITICAL Uncaught Error: Call to a member function wc_get_type() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:32
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 32
+
+2020-11-11T09:14:08+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:32
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 32
+
+2020-11-11T09:17:10+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 31
+
+2020-11-11T09:17:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 31
+
+2020-11-11T09:18:11+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/twentyseventeen/categorypage.php on line 31
+
